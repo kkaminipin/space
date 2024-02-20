@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--호환성모드 표준값-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--euc-kr=ANSI -->
+    <meta name="robots" content="index,follow" />
+    <!-- 검색을 위한 meta 태그 -->
+    <script
+      src="http://code.jquery.com/jquery-latest.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- jquery 파일 -->
+    <link rel="stylesheet" href="common/css/space.css" type="text/css" />
+    <script src="common/js/space.js" type="text/javascript"></script>
+    <script src="common/js/rotate.js" type="text/javascript"></script>
+    <script
+      type="text/javascript"
+      src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"
+    ></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="scroll_wrap">
+        <div class="scroll">
+          <div id="section05">
+            <span class="thank_you">THANK YOU</span>
+            <ul class="contact">
+              <li>
+                <img src="common/images/phone.png" alt="핸드폰" />
+                <span>010-9927-7761</span>
+              </li>
+              <li>
+                <img src="common/images/email.png" alt="이메일" />
+                <span>kkamidog<br />@naver.com</span>
+              </li>
+              <li>
+                <img src="common/images/kakaotalk.png" alt="카카오톡" />
+                <span>KAKAOTALK ID<br />kkamidog</span>
+              </li>
+            </ul>
+            <span class="design">@BY DESIGN HWANGJINA</span>
+            <span class="shooting_star"></span>
+            <span class="star1"></span>
+            <span class="star2"></span>
+            <span class="star3"></span>
+          </div>
+          <div id="section04">
+            <span class="gallery">GALLERY</span>
+            <div class="gallery_banner_wrap">
+              <ul class="gallery_banner_ul">
+                <li style="z-index: 5">
+                  <img src="common/images/1.jpg" alt="사진1" />
+                </li>
+                <li><img src="common/images/2.jpg" alt="사진2" /></li>
+                <li><img src="common/images/3.jpg" alt="사진3" /></li>
+                <li><img src="common/images/4.jpg" alt="사진4" /></li>
+                <li><img src="common/images/6.jpg" alt="사진5" /></li>
+                <li><img src="common/images/7.jpg" alt="사진6" /></li>
+              </ul>
+            </div>
+            <span class="prev_btn"><a href="#a" onclick="prev()">이전</a></span>
+            <span class="next_btn"><a href="#a" onclick="next()">다음</a></span>
+            <div class="gallery_dot">
+              <span><a href="#a">●</a></span>
+              <span><a href="#a">●</a></span>
+              <span><a href="#a">●</a></span>
+              <span><a href="#a">●</a></span>
+              <span><a href="#a">●</a></span>
+              <span><a href="#a">●</a></span>
+            </div>
+            <span class="road"
+              ><img src="common/images/road.png" alt="로켓길"
+            /></span>
+            <span class="tree4"
+              ><img src="common/images/tree.png" alt="나무4"
+            /></span>
+            <span class="forest4"
+              ><img src="common/images/forest2.png" alt="숲4"
+            /></span>
+            <div class="st04_one_wrap">
+              <span class="st04_one1"
+                ><img src="common/images/1.png" alt=""
+              /></span>
+              <span class="st04_one2"
+                ><img src="common/images/2.png" alt=""
+              /></span>
+              <span class="st04_one3"
+                ><img src="common/images/5.png" alt=""
+              /></span>
+              <span class="st04_one4"
+                ><img src="common/images/5.png" alt=""
+              /></span>
+              <span class="st04_one5"
+                ><img src="common/images/6.png" alt=""
+              /></span>
+              <span class="st04_one6"
+                ><img src="common/images/4.png" alt=""
+              /></span>
+              <span class="st04_one7"
+                ><img src="common/images/4.png" alt=""
+              /></span>
+            </div>
+          </div>
+          <div id="section03">
+            <span class="introduce">INTRODUCE</span>
+            <div class="introduce_info">
+              <div class="matrix_wrap">
+                <p class="matrix"></p>
+              </div>
+              <p class="self_introduction">
+                좀 더 색다르고 재미있는 사이트를 만들어보고 싶어서 마우스
+                스크롤로 컨트롤을 하며<br />
+                페이지를 볼 수 있는 사이트를 만들어 보았습니다.<br />많이
+                부족하지만 재미있게 봐주세요~
+              </p>
+            </div>
+            <span class="skill">SKILL</span>
+            <div class="skill_info">
+              <ul class="skill_name">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>JQUERY</li>
+                <li>PHOTOSHOP</li>
+              </ul>
+              <ul class="skill_bar">
+                <li><span class="html_bar"></span></li>
+                <li><span class="css_bar"></span></li>
+                <li><span class="js_bar"></span></li>
+                <li><span class="jquery_bar"></span></li>
+                <li><span class="ps_bar"></span></li>
+              </ul>
+              <ul class="skill_percent">
+                <li class="html_percent"></li>
+                <li class="css_percent"></li>
+                <li class="js_percent"></li>
+                <li class="jquery_percent"></li>
+                <li class="ps_percent"></li>
+              </ul>
+            </div>
+            <span class="tree2"
+              ><img src="common/images/tree.png" alt="나무2"
+            /></span>
+            <span class="tree3"
+              ><img src="common/images/tree.png" alt="나무3"
+            /></span>
+            <div class="firecracker1">
+              <img
+                src="common/images/firecracker1.png"
+                class="fire1"
+                alt="폭죽1"
+              />
+              <span class="bar1"></span>
+            </div>
+            <div class="firecracker2">
+              <img
+                src="common/images/firecracker2.png"
+                class="fire2"
+                alt="폭죽2"
+              />
+              <span class="bar2"></span>
+            </div>
+            <div class="firecracker3">
+              <img
+                src="common/images/firecracker3.png"
+                class="fire3"
+                alt="폭죽3"
+              />
+              <span class="bar3"></span>
+            </div>
+            <div class="firecracker4">
+              <img
+                src="common/images/firecracker4.png"
+                class="fire4"
+                alt="폭죽4"
+              />
+              <span class="bar4"></span>
+            </div>
+            <div class="st03_one_wrap">
+              <span class="st03_one1"
+                ><img src="common/images/2.png" alt=""
+              /></span>
+              <span class="st03_one2"
+                ><img src="common/images/2.png" alt=""
+              /></span>
+              <span class="st03_one3"
+                ><img src="common/images/3.png" alt=""
+              /></span>
+              <span class="st03_one4"
+                ><img src="common/images/3.png" alt=""
+              /></span>
+              <span class="st03_one5"
+                ><img src="common/images/4.png" alt=""
+              /></span>
+              <span class="st03_one6"
+                ><img src="common/images/4.png" alt=""
+              /></span>
+              <span class="st03_one7"
+                ><img src="common/images/4.png" alt=""
+              /></span>
+              <span class="st03_one8"
+                ><img src="common/images/9.png" alt=""
+              /></span>
+              <span class="st03_one9"
+                ><img src="common/images/9.png" alt=""
+              /></span>
+              <span class="st03_one10"
+                ><img src="common/images/7.png" alt=""
+              /></span>
+              <span class="st03_one11"
+                ><img src="common/images/8.png" alt=""
+              /></span>
+              <span class="st03_one12"
+                ><img src="common/images/7.png" alt=""
+              /></span>
+              <span class="st03_one13"
+                ><img src="common/images/1.png" alt=""
+              /></span>
+              <span class="st03_one14"
+                ><img src="common/images/4.png" alt=""
+              /></span>
+              <span class="st03_one15"
+                ><img src="common/images/2.png" alt=""
+              /></span>
+            </div>
+          </div>
+          <div id="section02">
+            <div class="profile_wrap">
+              <span class="profile">PROFILE</span>
+              <div class="frame_wrap">
+                <span class="frame"
+                  ><img src="common/images/my_pictures.jpg" alt="액자"
+                /></span>
+              </div>
+              <div class="profile_title">
+                <span>NAME</span>
+                <span>RELIGION</span>
+                <span>LICENCE</span>
+                <span>BIRTH</span>
+                <span>EDUCATION</span>
+              </div>
+              <div class="profile_info">
+                <span>김준범</span>
+                <span>무교</span>
+                <span>1종보통, 오픈워터</span>
+                <span>1990.05.04</span>
+                <span>컴퓨터게임학과</span>
+              </div>
+            </div>
+            <span class="tree1"
+              ><img src="common/images/tree.png" alt="나무1"
+            /></span>
+            <span class="forest3"
+              ><img src="common/images/forest2.png" alt="숲2"
+            /></span>
+            <div class="st02_one_wrap">
+              <span class="st02_one1"
+                ><img src="common/images/7.png" alt=""
+              /></span>
+              <span class="st02_one2"
+                ><img src="common/images/1.png" alt=""
+              /></span>
+              <span class="st02_one3"
+                ><img src="common/images/4.png" alt=""
+              /></span>
+              <span class="st02_one4"
+                ><img src="common/images/8.png" alt=""
+              /></span>
+              <span class="st02_one5"
+                ><img src="common/images/1.png" alt=""
+              /></span>
+              <span class="st02_one6"
+                ><img src="common/images/9.png" alt=""
+              /></span>
+              <span class="st02_one7"
+                ><img src="common/images/5.png" alt=""
+              /></span>
+              <span class="st02_one8"
+                ><img src="common/images/5.png" alt=""
+              /></span>
+              <span class="st02_one9"
+                ><img src="common/images/3.png" alt=""
+              /></span>
+              <span class="st02_one10"
+                ><img src="common/images/2.png" alt=""
+              /></span>
+              <span class="st02_one11"
+                ><img src="common/images/4.png" alt=""
+              /></span>
+              <span class="st02_one12"
+                ><img src="common/images/4.png" alt=""
+              /></span>
+            </div>
+          </div>
+          <div id="section01">
+            <span class="optimization"
+              >이 사이트는 1920해상도에 최적화 된 사이트입니다.</span
+            >
+            <span class="scroll_down">Scroll Down!</span>
+            <span class="city1"
+              ><img src="common/images/city1.png" alt="도시1"
+            /></span>
+            <span class="city2"
+              ><img src="common/images/city2.png" alt="도시2"
+            /></span>
+            <span class="match"
+              ><img src="common/images/match.png" alt="성냥"
+            /></span>
+            <span class="hand"
+              ><a href="#a" onclick="hand_click()"
+                ><img src="common/images/hand_off.png" alt="잡은 손" /></a
+            ></span>
+            <span class="click"
+              ><a href="#a" onclick="hand_click()"
+                ><img src="common/images/click.png" alt="클릭" /></a
+            ></span>
+            <span class="rocket_smoke1"
+              ><img src="common/images/rocket_smoke1.png" alt="로켓 연기1"
+            /></span>
+            <span class="rocket_smoke2"
+              ><img src="common/images/rocket_smoke2.png" alt="로켓 연기2"
+            /></span>
+            <span class="smoke_shadow"
+              ><img src="common/images/smoke_shadow.png" alt="로켓 그림자"
+            /></span>
+            <span class="title">Web Site Publishing & UI Developer</span>
+            <span class="sublime"
+              >HTML / CSS / JavaScript / Jquery / PhotoShop</span
+            >
+            <span class="moon"
+              ><img src="common/images/moon.png" alt="달"
+            /></span>
+            <span class="cloud1"
+              ><img src="common/images/cloud1.png" alt="구름1"
+            /></span>
+            <span class="cloud2"
+              ><img src="common/images/cloud2.png" alt="구름2"
+            /></span>
+            <div class="rocket_wrap">
+              <div class="rocket">
+                <span class="rocket_img"
+                  ><img src="common/images/rocket.png" alt="로켓"
+                /></span>
+                <div class="smoke">
+                  <img src="common/images/smoke.png" alt="연기" />
+                </div>
+              </div>
+            </div>
+            <span class="forest1"
+              ><img src="common/images/forest1.png" alt="숲1"
+            /></span>
+            <span class="forest2"
+              ><img src="common/images/forest2.png" alt="숲2"
+            /></span>
+            <div class="st01_one_wrap">
+              <span class="st01_one1"
+                ><img src="common/images/1.png" alt=""
+              /></span>
+              <span class="st01_one2"
+                ><img src="common/images/2.png" alt=""
+              /></span>
+              <span class="st01_one3"
+                ><img src="common/images/3.png" alt=""
+              /></span>
+              <span class="st01_one4"
+                ><img src="common/images/4.png" alt=""
+              /></span>
+              <span class="st01_one5"
+                ><img src="common/images/5.png" alt=""
+              /></span>
+              <span class="st01_one6"
+                ><img src="common/images/5.png" alt=""
+              /></span>
+              <span class="st01_one7"
+                ><img src="common/images/4.png" alt=""
+              /></span>
+              <span class="st01_one8"
+                ><img src="common/images/2.png" alt=""
+              /></span>
+              <span class="st01_one9"
+                ><img src="common/images/1.png" alt=""
+              /></span>
+              <span class="st01_one10"
+                ><img src="common/images/3.png" alt=""
+              /></span>
+              <span class="st01_one11"
+                ><img src="common/images/5.png" alt=""
+              /></span>
+              <span class="st01_one12"
+                ><img src="common/images/5.png" alt=""
+              /></span>
+              <span class="st01_one13"
+                ><img src="common/images/6.png" alt=""
+              /></span>
+              <span class="st01_one14"
+                ><img src="common/images/4.png" alt=""
+              /></span>
+              <span class="st01_one15"
+                ><img src="common/images/4.png" alt=""
+              /></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
